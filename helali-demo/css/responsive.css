@@ -1,0 +1,123 @@
+/*-----------for tablet -----------------*/
+@media only screen and (max-width:768px) {
+   
+    .container {
+    padding: 0 1.5rem;
+}
+    .inner_content h1 {
+    font-size: 7.2rem;
+    width: 100%;
+    text-align: center;
+}
+    .side1 h2 {
+    font-size: 15rem;
+} 
+    .side2 h2 {
+    font-size: 15rem;
+}
+    .side1 h2::before {
+    top: 2rem;
+} 
+    .side2 h2::before {
+    top: 2rem;
+}
+    .top_about h2 {
+    font-size: 6.2rem;
+} .top_about h2 span {
+    font-size: 6.2rem;
+}
+    .portfolio_content .port_top {
+    color: #2f3031;
+    font-size: 5.2rem;
+}
+    .portfolio_content .port_top span {
+    color: #2f3031;
+    font-size: 5.2rem;
+}
+    .port_btn ul li {
+    margin-bottom: 3rem;
+}
+    
+  .inner_testomonial .test_content h4 {
+    font-size: 3rem;
+}
+   .inner_testomonial .test_content p {
+    font-size: 2rem;
+}
+    .inner_testomonial .test_content p::before {
+    top: -0.7rem;
+    right: 29.6rem;
+    height: 2.7rem;
+}
+    
+}
+/*-----------for mobile-----------------*/
+@media only screen and (max-width:480px){
+    
+    html {
+    font-size: 7px;
+}
+   
+    .mean-container .mean-bar {
+    padding:0;
+} 
+    .header_content .logo_area {
+    float: none;
+    text-align: center;
+    margin-top: 5rem;
+}
+    .top_about {
+    width: 100%;
+    text-align: center;
+}
+    .c_about {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+    .portfolio_content .port_top {
+    width: 100%;
+    text-align: center;
+}
+    .port_bottom .port_list {
+    width: 33%;
+    display: inline-block;
+}
+    .port_btn ul li {
+    margin-bottom: 2rem;
+    padding: 0.5rem 0;
+    width: 6rem;
+}
+    .footer_content .footer_left {
+    float: none;
+    text-align: center;
+}
+    .footer_content .footer_right {
+    float: none;
+    text-align: center;
+}
+}
+@media only screen and (max-width:411px){
+    .inner_content h1 {
+    font-size: 5.2rem;
+}
+   .side1 h2 {
+    font-size: 10rem;
+}  .side2 h2 {
+    font-size: 10rem;
+} 
+    .side1 h2::before {
+    top: -3rem;
+} .side2 h2::before {
+    top:-3rem;
+}
+    .port_bottom .port_list {
+    width: 30%;
+}
+    .top_about h2 span {
+    font-size: 5.2rem;
+}  .top_about h2 {
+    font-size: 5.2rem;
+}
+    
+}

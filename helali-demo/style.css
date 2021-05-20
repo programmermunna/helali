@@ -1,0 +1,434 @@
+/*==============================
+-------------common-------------
+==============================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+body{
+    color:#000;
+    
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 1.6rem;
+}
+a{
+    text-decoration: none;
+}
+input{
+    outline:none;
+}
+.container{
+    max-width: 117rem;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+/*==============================
+-------------header-------------
+==============================*/
+.header_content{
+    padding-top:2rem;
+    width: 100%;
+}
+.header_content .logo_area{
+    float: left;
+}
+.header_content .logo_area img{
+    width: 24rem;
+    height: auto;
+    cursor: pointer;
+}
+
+.header_content .nav_area{
+    float: right;
+    width: 60%;
+}
+
+.header_content .nav_area ul{
+    text-align: right;
+    list-style: none;
+}
+
+.header_content .nav_area ul li{
+    display: inline-block;
+    padding:1rem 0;
+    
+    
+}
+
+.header_content .nav_area ul li a{
+    padding: 1rem;
+    background: #202124;
+    border-radius: .5rem;
+    color: #0af6b5;
+    transition: .5s;
+    border: .1rem solid #0af6b5;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header_content .nav_area ul li a:hover{
+    border: .1rem solid #202124;
+    color: #000;
+    background: none;
+}
+/*==============================
+----------header body-----------
+==============================*/
+.inner_content {
+    background: url(img/header_bg.jpg);
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    top: -7.5rem;
+    z-index: -1;
+}
+.inner_content h1 {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,50%);
+    color: #fff;
+    z-index: 2;
+    font-size: 7.2rem;
+    font-weight: 700;
+    text-shadow: 6px 6px 8px #000;
+}
+.inner_content .side1{
+    width: 50%;
+    height: 76rem;
+    float: left;
+    background: #202124;
+    opacity: .9;
+    position: relative;
+}
+.inner_content .side2{
+    width: 50%;
+    height: 76rem;
+    float: right;
+    background: #0af6b5;
+    opacity: .8;
+    position: relative;
+
+}
+.side1 h2{
+    position: absolute;
+    right: 10rem;
+    bottom:2rem;
+    margin:auto;
+    color: #0af6b5;
+    font-size: 20rem;
+}
+.side2 h2{
+    position: absolute;
+    left: 10rem;
+    bottom:2rem;
+    color: #202124;
+    font-size: 20rem;
+}
+.side1 h2::before {
+    position: absolute;
+    content: '';
+    width: 9rem;
+    height: 18rem;
+    top: 6rem;
+    right: -10rem;
+    background: #0af6b5;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px
+}.side2 h2::before {
+    position: absolute;
+    content: '';
+    width: 9rem;
+    height: 18rem;
+    top: 6rem;
+    left: -10rem;
+    background: #202124;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+/*==============================
+----------About area-----------
+==============================*/
+.top_about{
+    width: 60%;
+}
+.top_about h2{
+    color: #05fab8;
+    font-size: 7.2rem;
+}
+.top_about h2 span{
+    color: #2f3031;
+    font-size: 7.2rem;
+}
+.top_about p{
+    color: #2f3031;
+    font-size: 1.8rem;
+}
+.mid_about{
+    margin-top: 5rem;
+    width: 100%;
+}
+.c_about{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.c_about h3 {
+    padding: .5rem 0px;
+    color: #2f3031;
+    font-size: 4.8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.c_about img{
+    cursor: pointer;
+}
+.c_about p{
+    color: #2f3031;
+    font-size: 1.8rem;
+}
+.c_about p span{
+    color: #05fab8;
+    font-weight: bold;
+    cursor: pointer;
+}
+/*==============================
+----------sevices-----------
+==============================*/
+.inner_servic .top_about {
+    margin-top: 6rem;
+}
+.inner_servic .top_about h2{
+    color: #2f3031;
+}
+
+.inner_servic .top_about span{
+    color: #05fab8;
+}
+
+.inner_servic .mid_about h3{
+    font-size: 4.5rem;
+}
+
+/*==============================
+----------portfolio-----------
+==============================*/
+.portfolio_content{
+    padding: 5rem 0;
+}
+
+.portfolio_content .port_top h2{
+    color: #05fab8;
+    font-size: 6.2rem;
+}
+
+.portfolio_content .port_top span{
+    color: #2f3031;
+    font-size: 7.2rem;
+}
+.portfolio_content .port_top p{
+    color: #2f3031;
+    font-size: 1.8rem;
+}
+.portfolio_content .port_top{
+    width: 60%;
+}
+/*------------------------*/
+.port_btn{
+    margin-top: 5rem;
+}
+.port_btn ul{
+    text-align: center;
+    list-style: none;
+}
+.port_btn ul li{
+    display: inline-block;
+    margin: 0 1rem;
+    padding: 1em 0;
+    width: 8rem;
+    color: #fff;
+    background: #05fab8;
+    border-radius: .5rem;
+    border: .1rem solid #05fab8;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    transition: .5s;
+}
+.port_btn .active{
+    color: #05fab8;
+    background: none;
+    border: .1rem solid #05fab8;
+}
+.port_btn ul li:hover{
+    color: #05fab8;
+    background: none;
+    border: .1rem solid #05fab8;
+}
+.port_btn{
+    margin-top: 5rem;
+}
+.port_bottom{
+    padding-top: 10rem;
+    width: 100%;
+}
+.port_bottom img{
+    width: 100%;
+}
+.port_bottom .port_list{
+    width: 24%;
+    display: inline-block;
+}
+
+/*==============================
+----------testomonial-----------
+==============================*/
+
+.inner_testomonial .test_content{
+    text-align: center;
+    padding: 4rem -0px;
+    
+    
+}
+.inner_testomonial .test_content h4{
+    font-size: 4rem;
+}
+
+.inner_testomonial .test_content p{
+    text-align: right;
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px #000;
+    position: relative;
+}
+.inner_testomonial .test_content p::before {
+    position: absolute;
+    content: "";
+    top: -.7rem;
+    right: 37.6rem;
+    width: 0.5rem;
+    height: 4rem;
+    background: #05fab8;
+    box-shadow: 1px 1px 3px #000;
+}
+.inner_testomonial .test_content p span{
+    color: #05fab8;
+}
+
+/*==============================
+----------contact-----------
+==============================*/
+.inner_contact{
+    width: 100%;
+}
+.inner_contact .top_about{
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+/*----------main_contact-----------*/
+.inner_contact .bottom_contact{
+    width: 60%;
+    margin: 5rem auto;
+    
+}.inner_contact .bottom_contact .form{
+    text-align: center;
+    
+}
+.inner_contact .bottom_contact input[type="text"],input[type="email"]{
+    margin: 0 auto;
+    display:block;
+    width: 100%;
+    height: 4rem;
+    border:0px solid ;
+    border-bottom:.5rem solid #05fab8;
+    margin-bottom: 1rem;
+}
+.inner_contact .bottom_contact textarea{
+    margin: 0 auto;
+    display:block;
+    width: 100%;
+    height: 4rem;
+    border:0px solid ;
+    border-bottom:.5rem solid #05fab8;
+    margin-bottom: 1rem;
+    outline: none;
+}
+.inner_contact .bottom_contact input[type="submit"] {
+    margin-top: 4rem;
+    background: #05fab8;
+    color: #fff;
+    border: none;
+    padding: 1rem 6rem;
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: .5rem;
+    transition: .5s;
+    border: .1rem solid #fff;
+    cursor: pointer;
+}
+.inner_contact .bottom_contact input[type="submit"]:hover{
+    background: none;
+    color: #05fab8;
+    border: .1rem solid #05fab8;
+}
+/*==============================
+-------------footer-------------
+==============================*/
+.footer_content{
+    width: 100%;
+    padding-bottom: 4rem;
+}
+.footer_content .footer_left{
+    float: left;
+}
+.footer_content .footer_left h5{
+    font-style: italic;
+    color: #2f3031;
+}
+.footer_content .footer_left h5 span{
+    font-style:normal;
+    color: #05fab8;
+    text-shadow: 3px 2px 3px #2f3031;
+    transition: .5s;
+}
+.footer_content .footer_left h5 span:hover{
+    font-style:normal;
+    color: #2f3031;
+    text-shadow: 3px 2px 3px #05fab8;
+}
+.footer_content .footer_right{
+    float: right;
+}
+.footer_content .footer_right ul{
+    list-style: none;
+}
+.footer_content .footer_right ul li{
+    display: inline-block;
+}
+.footer_content .footer_right ul li a ,span{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #2f3031;
+    transition: .5s;
+}
+
+.footer_content .footer_right ul li a span:hover{
+    color: #05fab8;
+}
